@@ -1,0 +1,814 @@
+/* Desktop breakpoints */
+@media screen and (max-width: 1200px) {
+    .row-responsive {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home {
+        padding-bottom: 35px;
+    }
+
+    .intro {
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .cover-image {
+        margin-top: 100px;
+        margin-bottom: 22px;
+        width: 40%;
+    }
+
+    .intro h1 {
+        font-size: 3.5rem;
+    }
+
+    .intro h2 {
+        font-size: 2.5rem;
+    }
+
+    .intro p {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+
+    .btn-content {
+        font-size: 1.1rem;
+    }
+
+    .about-img img {
+        width: 325px;
+    }
+
+    .about-img h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-txt {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-me {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .first-col, .second-col {
+        width: 50%;
+    }
+
+    .service h2 {
+        margin-left: 1rem;
+    }
+
+    .service-col1, .service-col2, .service-col3 {
+        width: 600px;
+        height: 315px;
+    }
+
+    .service-col1 p,
+    .service-col2 p,
+    .service-col3 p {
+        line-height: 25px;
+    }
+
+    .service-col1 h3,
+    .service-col2 h3,
+    .service-col3 h3 {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .resume-container h2 {
+        margin-left: 1rem;
+    }
+
+    .education-row {
+        width: 95%;
+        margin: 2rem;
+    }
+
+    .edu-col1 {
+        width: 30%;
+    }
+
+    .edu-col2 {
+        width: 80%;
+        padding-top: 10px;
+    }
+
+    .skills {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 2.3rem;
+    }
+
+    .skill-col {
+        width: 30%; 
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .experience-row {
+        width: 95%;
+        margin: 2rem;
+    }
+
+    .exp-col1 {
+        width: 30%;
+    }
+
+    .exp-col2 {
+        width: 80%;
+        padding-top: 10px;
+    }
+
+    .project-container h2 {
+        margin-left: 1rem;
+    }
+
+    swiper-container {
+        margin: 0 auto;
+        padding-right: 1.3rem;
+    }
+
+    swiper-slide h3 {
+        width: 79%;
+        text-align: center;
+    }
+
+    .contact {
+        min-height: 78vh;
+        height: auto;
+        padding-left: 1rem;
+    }
+
+    .firstCol input {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding-top: 1rem;
+    }
+
+    .contact-col1 {
+        width: 35%;
+        margin-right: 2rem;
+    }
+
+    .contact-col2 {
+        width: 65%;
+    }
+
+    .contact-info p {
+        line-height: 28px;
+    }
+
+    .form-group {
+        width: 93%;
+    }
+
+    .form-group input {
+        padding: 11px;
+        font-size: 1rem;
+    }
+
+    .subject {
+        width: 104%;
+    }
+
+    .form-group textarea {
+        font-size: 1rem;
+        width: 104%;
+    }
+
+    .footer p {
+        margin-top: -100px;
+    }
+
+    .scroll-up {
+        top: 88%;
+        right: 15px;
+        z-index: 999;
+    }
+
+    .footer {
+        padding-left: 0px;
+    }
+}
+
+/* Laptop breakpoints */
+@media screen and (max-width: 992px) {
+    .row-responsive {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home {
+        padding-bottom: 35px;
+    }
+
+    .intro {
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .cover-image {
+        margin-top: 100px;
+        margin-bottom: 22px;
+        width: 50%;
+    }
+
+    .intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro h2 {
+        font-size: 2rem;
+    }
+
+    .intro p {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .btn-content {
+        font-size: 1rem;
+    }
+
+    .about-img img {
+        width: 325px;
+    }
+
+    .about-img h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-txt {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-me {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .first-col, .second-col {
+        width: 50%;
+    }
+
+    .service h2 {
+        margin-left: 1rem;
+    }
+
+    .service-col1, .service-col2, .service-col3 {
+        width: 600px;
+        height: 350px;
+    }
+
+    .service-col1 p,
+    .service-col2 p,
+    .service-col3 p {
+        line-height: 23px;
+    }
+
+    .service-col1 h3,
+    .service-col2 h3,
+    .service-col3 h3 {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .resume-container h2 {
+        margin-left: 1rem;
+    }
+
+    .education-row {
+        width: 91%;
+        margin: 2rem;
+    }
+
+    .edu-col1 {
+        width: 30%;
+    }
+
+    .edu-col2 {
+        width: 80%;
+        padding-top: 10px;
+    }
+
+    .skills {
+        width: 93%;
+        margin: auto;
+        margin-bottom: 2.3rem;
+    }
+
+    .skill-col {
+        width: 30%; 
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .experience-row {
+        width: 91%;
+        margin: 2rem;
+    }
+
+    .exp-col1 {
+        width: 30%;
+    }
+
+    .exp-col2 {
+        width: 80%;
+        padding-top: 10px;
+    }
+
+    .project-container h2 {
+        margin-left: 1rem;
+    }
+
+    swiper-container {
+        margin: 0 auto;
+        padding-right: 1.3rem;
+    }
+
+    swiper-slide h3 {
+        width: 79%;
+        text-align: center;
+    }
+
+    .contact {
+        min-height: 93vh;
+        height: auto;
+        padding-left: 1rem;
+    }
+
+    .firstCol input {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding-top: 1rem;
+    }
+
+    .contact-col1 {
+        width: 35%;
+        margin-right: 2rem;
+    }
+
+    .contact-col2 {
+        width: 65%;
+    }
+
+    .contact-info p {
+        line-height: 28px;
+    }
+
+    .form-group {
+        width: 93%;
+    }
+
+    .form-group input {
+        padding: 11px;
+        font-size: 1rem;
+    }
+
+    .subject {
+        width: 103%;
+    }
+
+    .form-group textarea {
+        font-size: 1rem;
+        width: 103%;
+    }
+
+    .footer p {
+        margin-top: -100px;
+    }
+
+    .scroll-up {
+        top: 88%;
+        right: 15px;
+        z-index: 999;
+    }
+
+    .footer {
+        padding-left: 0px;
+    }
+}
+
+/* Tablet breakpoints */
+@media screen and (max-width: 768px) {
+    .main {
+        /* width: fit-content; */
+        position: relative;
+        z-index: -1;
+    }
+
+    .row-responsive {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home {
+        height: auto;
+        padding-bottom: 35px;
+    }
+
+    .home-container {
+        flex-direction: column-reverse;
+    }
+
+    .intro {
+        width: 100%;
+        padding-left: 80px;
+    }
+
+    .cover-image {
+        width: 40%;
+        margin-top: 110px;
+        margin-bottom: 22px;
+    }
+
+    .intro h1 {
+        font-size: 3.1rem;
+    }
+
+    .intro h2 {
+        font-size: 2.1rem;
+    }
+
+    .intro p {
+        width: 77%;
+        font-size: 1rem;
+    }
+
+    .about-img h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-txt {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-me {
+        margin-right: 5rem; /* 2rem */
+        margin-left: 5rem;
+    }
+
+    .service h2 {
+        margin-left: 5rem;
+    }
+
+    .service-col1, .service-col2, .service-col3 {
+        width: 600px;
+    }
+
+    .service-col1 p,
+    .service-col2 p,
+    .service-col3 p {
+        line-height: 27px;
+    }
+
+    .service-col1 h3,
+    .service-col2 h3,
+    .service-col3 h3 {
+        margin-bottom: 10px;
+    }
+
+    .resume-container h2 {
+        margin-left: 5rem;
+    }
+
+    .education-row {
+        width: 79%;
+        margin: 2rem auto;
+    }
+
+    .inside-row {
+        flex-direction: column;
+    }
+
+    .edu-col1 {
+        border-right: 0;
+        border-bottom: 1px solid hsla(0, 7%, 79%, 0.286);
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .edu-col2 {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .skills {
+        width: 93%;
+        margin: auto;
+        margin-bottom: 2.3rem;
+    }
+
+    .skill-col {
+        width: 35%; 
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .experience-row {
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    .exp-col1 {
+        border-right: 0;
+        border-bottom: 1px solid hsla(0, 7%, 79%, 0.286);
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .exp-col2 {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 8px;
+    }
+
+    .project-container h2 {
+        margin-left: 2rem;
+    }
+
+    swiper-container {
+        margin: 0 auto;
+        padding-right: 1.5rem;
+    }
+
+    swiper-slide h3 {
+        width: 79%;
+        text-align: center;
+    }
+
+    .contact {
+        min-height: 172vh;
+        height: auto;
+        padding-left: 2rem;
+    }
+
+    .contact-row {
+        flex-direction: column;
+    }
+
+    .firstCol {
+        flex-direction: column;
+
+    }
+
+    .firstCol input {
+        width: 100%;
+    }
+
+    .social-links2 {
+        visibility: visible;
+        margin-bottom: 20px;
+    }
+
+    .contact-container {
+        padding-top: 1rem;
+    }
+
+    .contact-col1,
+    .contact-col2 {
+        width: 100%;
+    }
+
+    .contact-info p {
+        width: 100%;
+        line-height: 28px;
+    }
+
+    .form-group {
+        width: 93%;
+    }
+
+    .form-group input {
+        padding: 13px;
+        font-size: 1rem;
+    }
+
+    .form-group textarea {
+        font-size: 1rem;
+    }
+
+    .footer p {
+        margin-top: -100px;
+    }
+
+    .scroll-up {
+        top: 73%;
+        right: 15px;
+        z-index: 999;
+    }
+
+    .footer {
+        padding-left: 0px;
+    }
+}
+/* mobile breakpoints */
+@media screen and (max-width: 600px) {
+    .main {
+        /* width: fit-content; */
+        position: relative;
+        z-index: -1;
+    }
+
+    .row-responsive {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home {
+        height: auto;
+        padding-bottom: 35px;
+    }
+
+    .home-container {
+        flex-direction: column-reverse;
+    }
+
+    .intro {
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .cover-image {
+        width: 50%;
+        margin-top: 110px;
+        margin-bottom: 22px;
+    }
+
+    .intro h1 {
+        font-size: 3.3rem;
+    }
+
+    .intro p {
+        width: 85%;
+    }
+
+    .about-txt {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-me {
+        margin-right: 2rem;
+    }
+
+    .service h2 {
+        margin-left: 2rem;
+    }
+
+    .service-col1 p,
+    .service-col2 p,
+    .service-col3 p {
+        line-height: 27px;
+    }
+
+    .service-col1 h3,
+    .service-col2 h3,
+    .service-col3 h3 {
+        margin-bottom: 10px;
+    }
+
+    .resume-container h2 {
+        margin-left: 2rem;
+    }
+
+    .education-row {
+        width: 85%;
+        margin: 2rem auto;
+    }
+
+    .inside-row {
+        flex-direction: column;
+    }
+
+    .edu-col1 {
+        border-right: 0;
+        border-bottom: 1px solid hsla(0, 7%, 79%, 0.286);
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .edu-col2 {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .skill-col {
+        width: 35%; /* 45% */
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .experience-row {
+        width: 85%;
+        margin: 2rem auto;
+    }
+
+    .exp-col1 {
+        border-right: 0;
+        border-bottom: 1px solid hsla(0, 7%, 79%, 0.286);
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .exp-col2 {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 8px;
+    }
+
+    .project-container h2 {
+        margin-left: 2rem;
+    }
+
+    swiper-container {
+        margin: 0 auto;
+    }
+
+    swiper-slide h3 {
+        width: 79%;
+        text-align: center;
+    }
+
+    .contact {
+        min-height: 172vh;
+        height: auto;
+        padding-left: 2rem;
+    }
+
+    .contact-row {
+        flex-direction: column;
+    }
+
+    .firstCol {
+        flex-direction: column;
+
+    }
+
+    .firstCol input {
+        width: 100%;
+    }
+
+    .social-links2 {
+        visibility: visible;
+        margin-bottom: 20px;
+    }
+
+    .contact-container {
+        padding-top: 1rem;
+    }
+
+    .contact-col1,
+    .contact-col2 {
+        width: 100%;
+    }
+
+    .contact-info p {
+        width: 100%;
+        line-height: 28px;
+    }
+
+    .form-group {
+        width: 93%;
+    }
+
+    .form-group input {
+        padding: 13px;
+        font-size: 1rem;
+    }
+
+    .form-group textarea {
+        font-size: 1rem;
+    }
+
+    .footer p {
+        margin-top: -100px;
+    }
+
+    .scroll-up {
+        top: 78%;
+        right: 15px; /* 5px */
+        z-index: 999;
+    }
+
+    .footer {
+        padding-left: 0px;
+    }
+}
+

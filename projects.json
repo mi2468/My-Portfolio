@@ -1,0 +1,84 @@
+{
+    "Projects": [
+        {
+            "id": "1",
+            "project_id": "No_1",
+            "Project_Name": "Stamina Club",
+            "coverimage": "images/gym1.jpg",
+            "git": "images/Git.png",
+            "netlify": "images/netlify2.png",
+            "Git_link": "https://github.com/mi2468/GYM-Proj",
+            "Netlify_link": "https://gym-site-proj.netlify.app/"
+        },
+        {
+            "id": "2",
+            "project_id": "No_2",
+            "Project_Name": "Shophaven",
+            "coverimage": "images/ecommerce1.jpg",
+            "git": "images/Git.png",
+            "netlify": "images/netlify2.png",
+            "Git_link": "https://github.com/mi2468/Bootstrap-website-proj",
+            "Netlify_link": "https://bootstrap-ecommerce-proj.netlify.app/"
+        },
+        {
+            "id": "3",
+            "project_id": "No_3",
+            "Project_Name": "Todo App",
+            "coverimage": "images/todo4.jpg",
+            "git": "images/Git.png",
+            "netlify": "images/netlify2.png",
+            "Git_link": "https://github.com/mi2468/TODO-LIST-APP-PROJECT",
+            "Netlify_link": "https://todolistapp-proj.netlify.app/"
+        },
+        {
+            "id": "4",
+            "project_id": "No_4",
+            "Project_Name": "Super Maket Change Cashier",
+            "coverimage": "images/change4.jpg",
+            "git": "images/Git.png",
+            "netlify": "images/netlify2.png",
+            "Git_link": "https://github.com/mi2468/SUPER-MARKET-CHANGE-CASHIER-PROJ",
+            "Netlify_link": "https://supermarket-change-cashier.netlify.app/"
+        },
+        {
+            "id": "5",
+            "project_id": "No_5",
+            "Project_Name": "QR Code Generator",
+            "coverimage": "images/qrcode_copy.jpg",
+            "git": "images/Git.png",
+            "netlify": "images/netlify2.png",
+            "Git_link": "https://github.com/mi2468/QR-CODE-GENERATOR-PROJ",
+            "Netlify_link": "https://qrcode-generator-proj-by-me.netlify.app/"
+        },
+        {
+            "id": "6",
+            "project_id": "No_6",
+            "Project_Name": "Weather App",
+            "coverimage": "images/weather2.jpg",
+            "git": "images/Git.png",
+            "netlify": "images/netlify2.png",
+            "Git_link": "https://github.com/mi2468/Weather-App-proj",
+            "Netlify_link": "https://weather-app-proj-by-me.netlify.app/"
+        },
+        {
+            "id": "7",
+            "project_id": "No_7",
+            "Project_Name": "Quizz App",
+            "coverimage": "images/quiz3.jpg",
+            "git": "images/Git.png",
+            "netlify": "images/netlify2.png",
+            "Git_link": "https://github.com/mi2468/QUIZZ-APP-PROJ",
+            "Netlify_link": "https://quiz-app-proj.netlify.app/"
+        },
+        {
+            "id": "8",
+            "project_id": "No_8",
+            "Project_Name": "Coffee Zone",
+            "coverimage": "images/coffee2.jpg",
+            "git": "images/Git.png",
+            "netlify": "images/netlify2.png",
+            "Git_link": "",
+            "Netlify_link": ""
+        }
+    ]
+}

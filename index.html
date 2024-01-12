@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="icofont/icofont.css">
+    <link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <header class="header">
+            <img src="images/logo1.png" alt="">
+            <p>Portfolio</p>
+        </header>
+
+        <div class="nav_menu">
+            <ul>
+                <li class="active-nav"><a href="#home" class="hoverLink main-active"><i class="fa fa-home"
+                            aria-hidden="true"></i>Home</a>
+                </li>
+                <li class="active-nav"><a href="#about" class="hoverLink"><i class="fa fa-user"
+                            aria-hidden="true"></i>About</a></li>
+                <li class="active-nav"><a href="#resume" class="hoverLink"><i class="fa fa-file-text"
+                            aria-hidden="true"></i>Resume</a>
+                </li>
+                <li class="active-nav"><a href="#projects" class="hoverLink"><i class="fa fa-book"></i>Projects</a></li>
+                <li class="active-nav"><a href="#contact" class="hoverLink"><i class="fa fa-address-card"
+                            aria-hidden="true"></i>Contact</a></li>
+            </ul>
+        </div>
+        <li>
+            <div class="social-links">
+                <a href="https://twitter.com/4214_mi" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/mi.abrar.121?mibextid=gik2fB" class="facebook"><i
+                        class="fa fa-facebook"></i></a>
+                <a href="
+                https://www.linkedin.com/in/abrar-mi-ab523b250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/mi2468" class="github"><i class="fa fa-github"></i></a>
+            </div>
+        </li>
+    </div>
+
+    <div class="mobile-header" id="mobile-header">
+        <img src="/images/logo1.png" alt="">
+        <p>Portfolio</p>
+    </div>
+
+    <div class="mobile_nav">
+        <ul class="nav_list">
+            <li class="nav_item"><a href="#home" class="nav_link active-link"><i class="fa fa-home nav_icon"
+                        aria-hidden="true"></i><span class="nav_name">Home</span></a></li>
+            <li class="nav_item"><a href="#about" class="nav_link"><i class="fa fa-user nav_icon"
+                        aria-hidden="true"></i><span class="nav_name">About</span></a></li>
+            <li class="nav_item"><a href="#resume" class="nav_link"><i class="fa fa-file-text nav_icon"
+                        aria-hidden="true"></i><span class="nav_name">Resume</span></a></li>
+            <li class="nav_item"><a href="#projects" class="nav_link"><i class="fa fa-book nav_icon"></i><span
+                        class="nav_name">Projects</span></a></li>
+            <li class="nav_item"><a href="#contact" class="nav_link"><i class="fa fa-address-card nav_icon"
+                        aria-hidden="true"></i><span class="nav_name">Contact</span></a></li>
+        </ul>
+    </div>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home-container">
+                <div class="intro">
+                    <h4>Hello, I am</h4>
+                    <h1>Mohammed Abrar</h1>
+                    <h2>I'm a <span class="tech" id="text-span"> Frontend Developer</span></h2>
+                    <p>
+                        As a frontend maestro, I merge creativity with technology to build immersive websites, ensuring
+                        a perfect blend of aesthetics and user-centric design.</p>
+                    <div class="btn-conteiner">
+                        <a class="btn-content" href="Mohammed-Abrar-FlowCV-Resume-20240109.pdf" download>
+                            <span class="btn-title">Download Resume</span>
+                            <span class="icon-arrow">
+                                <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <path id="arrow-icon-one"
+                                            d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                            fill="#FFFFFF"></path>
+                                        <path id="arrow-icon-two"
+                                            d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                            fill="#FFFFFF"></path>
+                                        <path id="arrow-icon-three"
+                                            d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                            fill="#FFFFFF"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="cover-image">
+                    <img src="images/home-right3.png" alt="">
+                </div>
+            </div>
+            <div class="scroll-up">
+                <i class="fa-solid fa-angle-up"></i>
+            </div>
+
+        </section>
+        <section class="about" id="about">
+            <div class="about-container">
+                <div class="row row-responsive">
+                    <div class="about-img">
+                        <img src="images/img2.png" alt="">
+                        <div class="about-txt">
+                            <h2>Mohammed Abrar</h2>
+                            <h4><span class="tech">Web</span> Developer</h4>
+                        </div>
+                    </div>
+                    <div class="about-me">
+                        <h2>About Me</h2>
+                        <p>Hi, I'm Abrar, a frontend wizard who believes in the power of code to shape engaging online journeys. With a knack for problem-solving and an eye for design, I bring a unique blend of creativity and technical expertise to every project.</p>
+                        <p>Enthusiastic frontend developer with a passion for turning ideas into interactive digital experiences. Dedicated to staying at the forefront of web technologies to deliver innovative solutions that captivate users.</p>
+                        <div class="bio-data">
+                            <div class="first-col">
+                                <div>
+                                    <label>Birthday:</label>
+                                    <span>8th Feb 2002</span>
+                                </div>
+                                <div>
+                                    <label>Age:</label>
+                                    <span>21</span>
+                                </div>
+                                <div>
+                                    <label>Place:</label>
+                                    <span>Vellore</span>
+                                </div>
+                                <div>
+                                    <label>Nationality:</label>
+                                    <span>Indian</span>
+                                </div>
+                            </div>
+                            <div class="second-col">
+                                <div>
+                                    <label>Phone:</label>
+                                    <span>+91 9952523332</span>
+                                </div>
+                                <div>
+                                    <label>Email:</label>
+                                    <span>miabrar2468@gmail.com</span>
+                                </div>
+                                <div>
+                                    <label>Freelance:</label>
+                                    <span>Available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <h2>What I do?</h2>
+                <div class="row row-responsive">
+                    <div class="service-col1 card">
+                        <h3>Web Design</h3>
+                        <p class="small">Web design is my canvas, where pixels meet purpose. I specialize in creating visually striking and user-centric interfaces that seamlessly blend form and function, transforming ideas into digital masterpieces.</p>
+                        <div class="go-corner">
+                            <div class="go-icon">
+                                <i class="bx bx-mobile"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-col2 card">
+                        <h3>Web Development</h3>
+                        <p class="small">
+                            Web development is my playground for turning ideas into reality. With a mastery of coding languages and a passion for problem-solving, I build robust and dynamic websites that breathe life into digital concepts.</p>
+                        <div class="go-corner">
+                            <div class="go-icon">
+                                <i class="bx bx-desktop"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-col3 card">
+                        <h3>Responsive Design</h3>
+                        <p class="small">
+                            Responsive web design is my forte – a strategic approach to crafting websites that seamlessly adapt to various devices. Ensuring optimal user experiences across smartphones, tablets, and desktops.</p>
+                        <div class="go-corner">
+                            <div class="go-icon">
+                                <i class="bx bxs-devices"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="resume" id="resume">
+            <div class="resume-container">
+                <h2>Education & Skills</h2>
+                <div class="education">
+                    <div class="education-row">
+                        <div class="inside-row">
+                            <div class="edu-col1">
+                                <p>2019 - 2022</p>
+                                <h4>Bsc. in Computer Science</h4>
+                                <p>Thiruvalluvar University</p>
+                            </div>
+                            <div class="edu-col2">
+                                <p>I attained a Bachelor's degree in Computer Science from mazharul uloom college at
+                                    Ambur, demonstrating proficiency in programming, equipping you with a strong
+                                    foundation for a career in the tech industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-row edu-my">
+                        <div class="inside-row">
+                            <div class="edu-col1">
+                                <p>2018 - 2019</p>
+                                <h4>HSC</h4>
+                                <p>Islamiah hr & sec school</p>
+                            </div>
+                            <div class="edu-col2">
+                                <p>I successfully completed my 12th-HSC education, demonstrating academic achievement
+                                    and readiness for further academic pursuits or professional endeavors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-row edu-my">
+                        <div class="inside-row">
+                            <div class="edu-col1">
+                                <p>2017 - 2018</p>
+                                <h4>SSLC</h4>
+                                <p>Islamiah hr & sec school</p>
+                            </div>
+                            <div class="edu-col2">
+                                <p>I completed your 10th-SSLC education with success, showcasing foundational academic
+                                    skills and readiness for advancing to higher levels of education or entering diverse
+                                    career paths.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="skills-row">
+                        <div class="skill-col">
+                            <div class="skill-img">
+                                <img src="images/html.png" alt="">
+                            </div>
+                            <h3>HTML 5</h3>
+                        </div>
+                        <div class="skill-col">
+                            <div class="skill-img">
+                                <img src="images/css.png" alt="">
+                            </div>
+                            <h3>CSS 3</h3>
+                        </div>
+                        <div class="skill-col">
+                            <div class="skill-img">
+                                <img src="images/js2.png" alt="" class="js-icon">
+                            </div>
+                            <h3>JavaScript</h3>
+                        </div>
+                    <!-- </div> -->
+                    <!-- <div class="skills-row"> -->
+                        <div class="skill-col">
+                            <div class="skill-img">
+                                <img src="images/bootstrap2.png" alt="">
+                            </div>
+                            <h3>Bootstrap</h3>
+                        </div>
+                        <div class="skill-col">
+                            <div class="skill-img">
+                                <img src="images/react2-removebg-preview.png" alt="">
+                            </div>
+                            <h3>ReactJs</h3>
+                        </div>
+                        <div class="skill-col">
+                            <div class="skill-img">
+                                <img src="images/git2.png" alt="">
+                            </div>
+                            <h3>Git</h3>
+                        </div>
+                    </div>
+                </div>
+                <h2>Experience</h2>
+                <div class="experience">
+                    <div class="experience-row">
+                        <div class="inside-row">
+                            <div class="exp-col1">
+                                <h4>Web Development Intern</h4>
+                                <p>Aspira / Onsite</p>
+                                <p>July 2023 - Present</p>
+                            </div>
+                            <div class="exp-col2">
+                                <h4>Aspira System</h4>
+                                <p>Developed a solid foundation in front-end web development during a 6-month
+                                    internship, projects utilizing HTML5, CSS3, JS, and Bootstrap, showcasing
+                                    proficiency in creating responsive and visually appealing websites.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-row exp-my">
+                        <div class="inside-row">
+                            <div class="exp-col1">
+                                <h4>JavaScript proficiency</h4>
+                            </div>
+                            <div class="exp-col2">
+                                <p>Demonstrated advanced skills in JS ES6 through the implementation of interactive
+                                    features, enhancing user experiences and contributing to dynamic web applications..
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-row exp-my">
+                        <div class="inside-row">
+                            <div class="exp-col1">
+                                <h4>Adaptive Learning and Problem Solving</h4>
+                            </div>
+                            <div class="exp-col2">
+                                <p>Demonstrated a proactive and adaptive approach to learning, rapidly acquiring new
+                                    skills and technologies as needed. Developed problem-solving capabilities by
+                                    identifying and resolving challenges in the development process.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-row exp-my">
+                        <div class="inside-row">
+                            <div class="exp-col1">
+                                <h4>Agile Development</h4>
+                            </div>
+                            <div class="exp-col2">
+                                <p>Thrived in an agile development environment, participating in sprint planning, daily
+                                    stand-ups, and iterative development cycles. Developed strong analytical and
+                                    problem-solving skills by troubleshooting and resolving issues promptly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="project-container">
+                <h2>My Projects</h2>
+                <swiper-container class="mySwiper" id="mySwiper" pagination="true" effect="coverflow" grab-cursor="true"
+                    loop="true" slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0"
+                    coverflow-effect-depth="100" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+                    <!-- <swiper-slide>
+                        <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
+                        <h3>Coffee shop</h3>
+                        <div class="link">
+                            <div class="git">
+                                <a href=""><img src="images/Git.png" alt="" class="linkImg"></a>
+                            </div>
+                            <div class="netlify">
+                                <a href=""><img src="images/netlify2.png" alt="" class="linkImg"></a>
+                            </div>
+                        </div>
+                    </swiper-slide> -->
+                    <!-- <swiper-slide>
+                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                    </swiper-slide> -->
+                </swiper-container>
+
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <div class="contact-div">
+                    <div class="contact-row">
+                        <div class="contact-col1">
+                            <div class="contact-info">
+                                <h3>Get in touch</h3>
+                                <p>Always available for freelancing if the right project comes along, Feel free to
+                                    contact me.</p>
+                                <ul>
+                                    <li class="contact-icon">
+                                        <i class="fa fa-map-location-dot"></i>
+                                        <span class="icon-body">Vellore - 632001.</span>
+                                    </li>
+                                    <li class="contact-icon">
+                                        <i class="fa fa-envelope"></i>
+                                        <span class="icon-body">miabrar2468@gmail.com</span>
+                                    </li>
+                                    <li class="contact-icon">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <span class="icon-body">+91 9952523332</span>
+                                    </li>
+                                </ul>
+                                <div class="social-links2">
+                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/mi.abrar.121?mibextid=gik2fB" class="facebook"><i
+                                            class="fa fa-facebook"></i></a>
+                                    <a href="
+                                    https://www.linkedin.com/in/abrar-mi-ab523b250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/mi2468" class="github"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-col2">
+                            <div class="contact-form">
+                                <h4>Say Something</h4>
+                                <form id="contactForm" name="submit-to-google-sheet">
+                                    <div class="form-row">
+                                        <div class="firstCol">
+                                            <div class="form-col1">
+                                                <div class="form-group">
+                                                    <span class="error" id="fullNameError">Full name required</span>
+                                                    <input type="text" class="fullName" name="Name"
+                                                        placeholder="Full name" id="fullName" autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="form-col2">
+                                                <div class="form-group">
+                                                    <span class="error" id="emailError">
+                                                        Invalid Email address</span>
+                                                    <input type="email" class="email" name="Email" placeholder="Email"
+                                                        id="email" autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-col3">
+                                            <div class="form-group">
+                                                <span class="error" id="subjectError"></span>
+                                                <input type="text" class="subject" name="Subject" placeholder="Subject"
+                                                    id="subject" autocomplete="off">
+                                            </div>
+                                        </div>
+                                        <div class="form-col4">
+                                            <div class="form-group">
+                                                <span class="error" id="commentError"></span>
+                                                <textarea cols="4" rows="5" id="comment" placeholder="Type comment"
+                                                    name="Comment"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-col-5">
+                                            <div class="form-btn">
+                                                <button class="contact-btn" type="submit" id="sendBtn">Send
+                                                    Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <span id="success"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2024 copyright <span class="logo-name">portfolio</span> all rights reserved</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
